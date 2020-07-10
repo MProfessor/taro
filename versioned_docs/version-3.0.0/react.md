@@ -67,7 +67,7 @@ export default {
 
 > 在微信/百度/字节跳动/支付宝小程序中这一生命周期方法对应 app 的 `onLaunch`
 
-在此生命周期中通过 `getCurrentInstance().router.params`，可以访问到程序初始化参数。
+在此生命周期中通过 `getCurrentInstance().router.params`，可以访问到程序初始化参数。(Taro v3.0.2开始 getCurrentInstance更名为getCurrentPages 详见https://github.com/NervJS/taro/releases/tag/v3.0.2)
 
 #### componentWillMount()
 
