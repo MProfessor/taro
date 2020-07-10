@@ -97,7 +97,7 @@ import projectConfig from '@/project'
   }
 }
 ```
-
+> VS Code默认只加载一次j/tsconfig.json，所以修改以后需要重启编辑器
 > 建议别名使用 `@/` 开头而非仅用 `@` 开头，因为有小概率会与某些 `scoped` 形式的 `npm` 包（形如：[@tarojs/taro](https://npm.im/@tarojs/taro), [@babel/core](https://npm.im/@babel/core)）产生命名冲突。
 
 ## env
